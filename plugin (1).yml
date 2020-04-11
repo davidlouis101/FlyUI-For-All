@@ -1,0 +1,11 @@
+name: FlyUI
+main: Crow\FlyUI\Main
+api: [3.0.0, 4.0.0]
+version: 1.1.2
+author: Crow
+
+commands:
+ FlyUI:
+  description: §4FlyUI
+  permission: Fly.command
+  aliases: ["Flyui", "fly", "Fly", "flyui"]
