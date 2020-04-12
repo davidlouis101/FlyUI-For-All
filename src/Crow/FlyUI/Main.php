@@ -47,7 +47,7 @@ $this->getServer()->getPluginManager()->registerEvents($this,$this);
             }             
             switch($result){
                 case 0:
-                    $player->sendMessage(TextFormat::RED . "Fly >> is now on");
+                    $player->sendMessage(TextFormat::AQUA . "Fly >> is now on");
                     $player->addTitle("§l§6FlyUI", "§c§lFly on");
                 break;
 //Fly Off//
@@ -66,7 +66,7 @@ $this->getServer()->getPluginManager()->registerEvents($this,$this);
             });
             $form->setTitle("§l§6FlyUI");
             $form->setContent("FlyUI Code by Crow Balde");
-            $form->addButton("§aFly");
+            $form->addButton("§aFly on");
             $form->addButton("§4Fly off");
             $form->addButton("§cClose");
             $form->sendToPlayer($player);
