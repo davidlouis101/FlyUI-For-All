@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/davidlouis101/FlyUI-For-All
+build-by-default: true
+branches:
+- master
+projects:
+  FlyUI-For-All:
+    path: ""
+...
